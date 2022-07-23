@@ -108,3 +108,19 @@
     100%{top: -40px}
 }
 /* KEYFRAMES END */
+
+
+/* RESPONSIVENESS START */
+
+@media only screen and (max-width: 600px) {
+    .Mario {
+        top: 30px;
+        height: 100px;
+    }
+    .Luigi {
+        top: 200px;
+        height: 100px;
+    }
+}
+
+/* RESPONSIVENESS END */
