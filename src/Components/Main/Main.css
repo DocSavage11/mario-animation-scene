@@ -19,6 +19,14 @@
     height: 40%;
     background: skyblue;
 }
+
+.Sun {
+    height: 150px;
+}
+
+.Rotate-Sun {
+    animation: rotate 40s linear infinite;
+}
   
 .Grass{
     height: 30%;
@@ -87,27 +95,29 @@
 .Luigi {
     position: absolute;
     top: 100px;
-    left: 8px;
+    left: 0px;
 }
 
 .Drive-Mario {
-    animation: drive 3s linear infinite both, jump .3s 1.2s ease;
+    animation: drive 3s linear infinite both; 
 }
 
 .Drive-Luigi {
     animation: drive 5s linear infinite both;
 }
 
+
+
 /* KEYFRAMES START */
 
 @keyframes drive {
-    from{ transform: translateX(-200px);}
-    to{ transform: translateX(1000px);}
+    from{ left: -300px;}
+    to{ left: 100%;}
 }
 
 
 @keyframes wind {
-    from{ left: 300px;}
+    from{ left: -400px;}
     to{ left: 100%;}
 }
 
@@ -116,6 +126,13 @@
     0%{ top: -40px}
     50%{ top: -100px}
     100%{top: -40px}
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    }
 }
 /* KEYFRAMES END */
 
