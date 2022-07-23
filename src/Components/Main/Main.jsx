@@ -14,6 +14,7 @@ const Main = () => {
         <div className="Sky">
             <img src={require('../../Assets/Imagies/Cloud.png')} alt="" className="Cloud Cloud-1 Wind-Cloud-1" />
             <img src={require('../../Assets/Imagies/Cloud.png')} alt="" className="Cloud Cloud-2 Wind-Cloud-2" />
+            <img src={require('../../Assets/Imagies/Cloud.png')} alt="" className="Cloud Cloud-2 Wind-Cloud-3" />
         </div>
 
         <div className="Grass">

@@ -59,6 +59,12 @@
 
 }
 
+.Cloud:nth-child(3) {
+    width: 100px;
+    top: 140px;
+    opacity: .3;
+}
+
 .Wind-Cloud-1 {
     animation: wind 50s linear infinite reverse;
 }
@@ -67,6 +73,9 @@
     animation: wind 80s linear infinite reverse;
 }
 
+.Wind-Cloud-3 {
+    animation: wind 100s linear infinite reverse;
+}
 
 .Mario {
     position: absolute;
@@ -120,6 +129,24 @@
     .Luigi {
         top: 200px;
         height: 100px;
+    }
+
+    
+    .Wind-Cloud-1 {
+        animation: wind 20s linear infinite reverse;
+    }
+
+    .Wind-Cloud-2 {
+        animation: wind 10s linear infinite reverse;
+    }
+
+    .Wind-Cloud-3 {
+        animation: wind 30s linear infinite reverse;
+    }
+
+    @keyframes wind {
+        from{ left: -300px;}
+        to{ left: 100%;}
     }
 }
 
