@@ -1,13 +1,13 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Main.css'
 
 const Main = () => {
 
-    const [driveMario, setDriveMario] = useState(false);
+    // const [driveMario, setDriveMario] = useState(false);
 
-    const goMario = (e) => {
-        setDriveMario((prevState) => !prevState)
-    } 
+    // const goMario = (e) => {
+    //     setDriveMario((prevState) => !prevState)
+    // } 
 
   return (
     <div className="Container">
