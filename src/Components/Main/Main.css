@@ -5,8 +5,10 @@
 }
 
 .Container {
+    border: 1px solid red;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .Grass, .Sky, .Road{
@@ -123,12 +125,12 @@
 
 @media only screen and (max-width: 600px) {
     .Mario {
-        top: 30px;
-        height: 100px;
+        top: 0px;
+        height: 80px;
     }
     .Luigi {
-        top: 200px;
-        height: 100px;
+        top: 100px;
+        height: 80px;
     }
 
     
