@@ -25,10 +25,10 @@ const Main = () => {
             {/* <img onClick={goMario} src={require('../../Assets/Imagies/Mario.png')} className={driveMario ?"Mario Drive-Mario" : "Mario" }alt="" /> */}
 
             
-            <img onClick={goMario} src={require('../../Assets/Imagies/Mario.png')} className="Mario Drive-Mario" alt="" />
+            <img src={require('../../Assets/Imagies/Mario.png')} className="Mario Drive-Mario" alt="" />
 
 
-            <img onClick={goMario} src={require('../../Assets/Imagies/Luigi.png')} className="Luigi Drive-Luigi" alt="" />
+            <img src={require('../../Assets/Imagies/Luigi.png')} className="Luigi Drive-Luigi" alt="" />
         </div>
     </div>
   )
